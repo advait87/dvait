@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">dvait</string>
+    <string name="accessibility_service_description">Reads on-screen text to help you recall information later.</string>
+</resources>

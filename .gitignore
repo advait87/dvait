@@ -1,0 +1,23 @@
+# IDE & System
+.idea/
+*.iml
+.DS_Store
+*.swp
+local.properties
+.kotlin/
+
+# Build Outputs
+.gradle/
+build/
+app/build/
+app/.cxx/
+captures/
+
+# Secrets & Keys
+*.jks
+*.keystore
+google-services.json
+
+# Logs
+*.log
+

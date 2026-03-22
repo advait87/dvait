@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Dvait" parent="android:Theme.Material.NoActionBar">
+        <!-- Match Compose DarkBg: #000000 -->
+        <item name="android:windowSplashScreenBackground">#000000</item>
+        <!-- The floating logo and transparent mask prevent the white squircle wrapper -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/dvait_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+    </style>
+</resources>

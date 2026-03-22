@@ -1,0 +1,143 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6315204740763269779",
+      "lastPropertyId": "7:7073348420768395911",
+      "name": "CapturedText",
+      "properties": [
+        {
+          "id": "1:4264598872106959209",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4647513582479192268",
+          "name": "text",
+          "type": 9
+        },
+        {
+          "id": "3:6864265780725093668",
+          "name": "sourceApp",
+          "type": 9
+        },
+        {
+          "id": "4:1198352954780479324",
+          "name": "sourceType",
+          "type": 9
+        },
+        {
+          "id": "5:2191814386734812488",
+          "name": "timestamp",
+          "type": 6
+        },
+        {
+          "id": "6:3748329479500750316",
+          "name": "embedding",
+          "indexId": "1:2002399977939064188",
+          "type": 28,
+          "flags": 8
+        },
+        {
+          "id": "7:7073348420768395911",
+          "name": "embeddingVyakyarth",
+          "indexId": "3:2355937999769255414",
+          "type": 28,
+          "flags": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6862963706557404529",
+      "lastPropertyId": "3:7996614887415252287",
+      "name": "Conversation",
+      "properties": [
+        {
+          "id": "1:3029964575923826465",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1503323295986314053",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:7996614887415252287",
+          "name": "timestamp",
+          "type": 6
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:2679236064465646415",
+          "name": "messages",
+          "targetId": "3:1066090286608955183"
+        }
+      ]
+    },
+    {
+      "id": "3:1066090286608955183",
+      "lastPropertyId": "7:6703201806421557868",
+      "name": "Message",
+      "properties": [
+        {
+          "id": "1:4025419198516685382",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7643108291903076162",
+          "name": "role",
+          "type": 9
+        },
+        {
+          "id": "3:7878567376650343653",
+          "name": "content",
+          "type": 9
+        },
+        {
+          "id": "4:7047261938651870456",
+          "name": "timestamp",
+          "type": 6
+        },
+        {
+          "id": "5:3590576438503235573",
+          "name": "conversationId",
+          "indexId": "2:1313748444072923212",
+          "type": 11,
+          "flags": 520,
+          "relationTarget": "Conversation"
+        },
+        {
+          "id": "6:2048276884572777078",
+          "name": "fullPrompt",
+          "type": 9
+        },
+        {
+          "id": "7:6703201806421557868",
+          "name": "debugContext",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:1066090286608955183",
+  "lastIndexId": "3:2355937999769255414",
+  "lastRelationId": "1:2679236064465646415",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
