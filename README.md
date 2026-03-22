@@ -3,6 +3,14 @@
 
 `dvait` is a sophisticated Android application designed to provide users with a "digital memory" by capturing, indexing, and querying their device's visual and notification history. It prioritizes privacy by processing all sensitive data on-device and using local semantic search.
 
+
+
+
+https://github.com/user-attachments/assets/2b65018d-34d9-4d2b-8ce3-f9b29e00bc6a
+
+
+
+
 ## 🏗 Architecture
 The project follows a modern Android Architecture with a focus on high-performance background processing and reactive UI.
 
