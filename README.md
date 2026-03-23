@@ -47,6 +47,3 @@ While the app supports **Groq** for complex reasoning, the "context" sent to the
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. 
 - **Personal use is encouraged.**
 - **Commercial use is strictly prohibited without explicit written permission.**
-
----
-*Developed for the next generation of personal computing.*
